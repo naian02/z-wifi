@@ -9,16 +9,24 @@
                 <div class="card-body px-lg-7">
                     <div class="row">
                         <div class="col-6">
-                            <button type="button" class="btn btn-primary mb-3" style="width: 150px;">Wifi Connect</button>
+                            <a href="#">
+                                <button type="button" class="btn btn-primary mb-3" style="width: 150px;">Wifi Connect</button>
+                            </a>
                         </div>
                         <div class="col-6">
-                            <button type="button" class="btn btn-primary mb-3" style="width: 150px;">Agent Portal</button>
+                            <a href="#">
+                                <button type="button" class="btn btn-primary mb-3" style="width: 150px;">Agent Portal</button>
+                            </a>
                         </div>
                         <div class="col-6">
-                            <button type="button" class="btn btn-primary mb-3" style="width: 150px;">Register</button>
+                            <a href="{{route('register')}}">
+                                <button type="button" class="btn btn-primary mb-3" style="width: 150px;">Register</button>
+                            </a>
                         </div>
                         <div class="col-6">
-                            <button type="button" class="btn btn-primary mb-3" style="width: 150px;">Login</button>
+                            <a href="{{route('login')}}">
+                                <button type="button" class="btn btn-primary mb-3" style="width: 150px;">Login</button>
+                            </a>
                         </div>
                     </div>
                 

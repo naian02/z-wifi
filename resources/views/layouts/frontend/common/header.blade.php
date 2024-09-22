@@ -1,7 +1,7 @@
 <!-- Header -->
 <nav id="navbar-main" class="navbar navbar-horizontal navbar-main navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-        <a class="navbar-brand" href="./pages/dashboards/dashboard.html">
+        <a class="navbar-brand" href="{{route('layouts.frontend.home.index')}}">
             <img src="img/brand/brzl.png" style="width: 100px; height: 60px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,7 +11,7 @@
             <div class="navbar-collapse-header">
                 <div class="row">
                     <div class="col-6 collapse-brand">
-                        <a href="./pages/dashboards/dashboard.html">
+                        <a href="{{route('layouts.frontend.home.index')}}">
                             <img src="img/brand/brzl.png" style="width: 100px; height: 60px;">
                         </a>
                     </div>
@@ -25,12 +25,12 @@
             </div>
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a href="./pages/examples/login.html" class="nav-link">
+                    <a href="{{route('login')}}" class="nav-link">
                         <span class="nav-link-inner--text">Login</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="./pages/examples/register.html" class="nav-link">
+                    <a href="{{route('register')}}" class="nav-link">
                         <span class="nav-link-inner--text">Register</span>
                     </a>
                 </li>
