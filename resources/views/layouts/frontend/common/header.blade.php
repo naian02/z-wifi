@@ -25,16 +25,6 @@
             </div>
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a href="./pages/dashboards/dashboard.html" class="nav-link">
-                        <span class="nav-link-inner--text">Dashboard</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="./pages/examples/pricing.html" class="nav-link">
-                        <span class="nav-link-inner--text">Pricing</span>
-                    </a>
-                </li>
-                <li class="nav-item">
                     <a href="./pages/examples/login.html" class="nav-link">
                         <span class="nav-link-inner--text">Login</span>
                     </a>
