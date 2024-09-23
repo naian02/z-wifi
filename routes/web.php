@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FrontEndController;
+use App\Http\Controllers\ClientController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,8 +18,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {return view('app');});
-
 Route::get('/', [FrontEndController::class, 'home'])->name('layouts.frontend.home.index');
+
+Route::get('users/create', [ClientController::class, 'create'])->name('layouts.frontend.home.index');
+Route::post('users/store', [ClientController::class, 'store'])->name('users.store');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
