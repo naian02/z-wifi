@@ -7,4 +7,6 @@
 
 @include('layouts.frontend.home.content.options')
 
+
+
 @endsection
